@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Render Docs",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            // "command": "sphinx-build -M html docs/source/ docs/build/"
+            "command": "cd docs ; ./make.bat"
+        }
+    ]
+}
