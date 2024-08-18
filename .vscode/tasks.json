@@ -11,7 +11,7 @@
                 "isDefault": true
             },
             // "command": "sphinx-build -M html docs/source/ docs/build/"
-            "command": "cd docs ; ./make.bat"
+            "command": "cd docs ; ./make.bat html"
         }
     ]
 }
